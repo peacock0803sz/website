@@ -1,8 +1,16 @@
 # peacock0803sz
 
-[![Image from Gyazo](https://thumb.gyazo.com/thumb/200/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbWciOiJfOTdlMzIzYjIzNmNlNDIwZTBlMDk5ZjlhN2EyYWQwMmQifQ.flvOtqWbqi0EjPJiFFfFuCC4_iUksLwvT5SGSsZj1-o-jpg.jpg)](https://gyazo.com/1581e5efed9dd838385b37a05c0503fd)
+![Image from Gyazo](https://i.gyazo.com/1581e5efed9dd838385b37a05c0503fd.jpg)
 
 ## Me & Contacts
+
+### 名前
+
+- Peacock
+- peacock0803sz
+- くじゃく
+
+### 連絡先的なやつ
 
 - [E-mail](peacock0803sz@gmail.com)
 - [Twitter](https://twitter.com/peacock0803sz)
@@ -22,7 +30,16 @@
 - Linux大好きな高校生
 - 情報系学部を志望してる
 - Vimmerになりたい(VSCodeに甘えている)
-芝生
+
+### Skills
+
+- C(独習Cを読みながらやっているがポインタで躓いてる)
+- Python(Web記事つまみ食い)
+- HTML/CSS/Javascript(このサイトが作れる程度)
+
+### 芝生
+
+<img src="https://grass-graph.moshimo.works/images/peacock0803sz.png" width="500">
 
 ### Music
 
@@ -49,13 +66,6 @@
 2018/4/30 同中退
 2018/5/1 道内の通信制高校に編入 -->
 
-## Skills
-
-### Learing
-
-- C(独習Cを読みながらやっているがポインタで躓いてる)
-- Python(Web記事つまみ食い)
-- HTML/CSS/Javascript(このサイトが作れる程度)
 
 ### Donation
 
