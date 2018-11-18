@@ -1,14 +1,15 @@
-# peacock0803sz
-
 ## Me & Contacts
 
-- [Blog: Affettoso](http://peacock0803sz.hatenablog.jp/)
 - [E-mail](peacock0803sz@gmail.com)
 - [Twitter](https://twitter.com/peacock0803sz)
+- Mastodon
+    - [peacock0803sz@chikuwa.sweak.net](https://chikuwa.sweak.net/@peacock0803sz)
+    - [peacock0803sz@otoya.space](https://otoya.space/@peacock0803sz)
+- [GitHub](https://github.com/peacock0803sz/)
+- [Blog: Affettoso](http://peacock0803sz.hatenablog.jp/)
 - Q&A
     - [peing.net(質問箱)](https://peing.net/ja/peacock0803sz)
     - [marshmallow-qa.com(マシュマロ)](https://marshmallow-qa.com/peacock0803sz?utm_medium=url_text&utm_source=promotion)
-- [GitHub](https://github.com/peacock0803sz/)
 
 ## About
 
