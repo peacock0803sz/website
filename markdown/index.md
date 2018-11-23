@@ -1,6 +1,7 @@
 # peacock0803sz
 
-![Image from Gyazo](https://i.gyazo.com/1581e5efed9dd838385b37a05c0503fd.jpg)
+<!-- ![Image from Gyazo](https://i.gyazo.com/1581e5efed9dd838385b37a05c0503fd.jpg) -->
+<img src="https://i.gyazo.com/1581e5efed9dd838385b37a05c0503fd.jpg" width="720">
 
 ## Me & Contacts
 
