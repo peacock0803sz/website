@@ -1,0 +1,4 @@
+baseURL = "https://www.peacock0803sz.com"
+languageCode = "ja-jp"
+title = "Peacock"
+theme = "hugo-theme-iris"
