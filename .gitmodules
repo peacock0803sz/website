@@ -1,3 +1,7 @@
 [submodule "themes/hugo-theme-iris"]
 	path = themes/hugo-theme-iris
 	url = https://github.com/peaceiris/hugo-theme-iris.git
+[submodule "public"]
+	path = public
+	url = https://github.com/peacock0803sz/peacock0803sz.github.io.git
+	branch = master
