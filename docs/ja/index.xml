@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home - Affetoso on Affetoso</title>
+    <link>https://www.peacock0803sz.com/ja/</link>
+    <description>Recent content in Home - Affetoso on Affetoso</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sat, 25 Jan 2020 23:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.peacock0803sz.com/ja/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GitHub Pages and GitHub Actions</title>
+      <link>https://www.peacock0803sz.com/ja/posts/github-pages-and-github-actions/</link>
+      <pubDate>Fri, 01 Nov 2019 01:00:00 +0000</pubDate>
+      
+      <guid>https://www.peacock0803sz.com/ja/posts/github-pages-and-github-actions/</guid>
+      <description>GitHub Actions for GitHub Pages  GitHub Actions for GitHub Pages 🚀 Deploy static files and publish your site with Static Site Generators peaceiris/actions-gh-pages  
+ This is a GitHub Action to deploy your static files to GitHub Pages. This deploy action can be combined simply and freely with Static Site Generators  (Hugo, mdBook, MkDocs, Gatsby, GitBook, etc.).
+- name:Deployuses:peaceiris/actions-gh-pages@v2env:ACTIONS_DEPLOY_KEY:${{secrets.ACTIONS_DEPLOY_KEY}}PUBLISH_BRANCH:gh-pagesPUBLISH_DIR:./publicThe above example step will deploy ./public directory to gh-pages branch.</description>
+    </item>
+    
+    <item>
+      <title>lighthouse を GitHub Actions で実行する</title>
+      <link>https://www.peacock0803sz.com/ja/posts/lighthouse-github-actions/</link>
+      <pubDate>Tue, 01 Oct 2019 01:00:00 +0000</pubDate>
+      
+      <guid>https://www.peacock0803sz.com/ja/posts/lighthouse-github-actions/</guid>
+      <description>lighthouse No Docker action.
+Example lighthouse workflow name:lighthouseon:# push:schedule:- cron:&amp;#39;23 23 * * 0&amp;#39;jobs:test:runs-on:ubuntu-18.04steps:- uses:actions/checkout@v2- name:Installlighthouserun:sudonpmi-glighthouse- name:Runlighthouserun:| lighthouse \--chrome-flags=&amp;#34;--headless&amp;#34;\--outputhtml--output-path/tmp/report.html\&amp;#39;https://peaceiris.com&amp;#39;mkdir./publiccp/tmp/report.html./public/report.html- name:Uploadresultuses:actions/upload-artifact@masterwith:name:reportpath:/tmp/report.htmlDeploy result to GitHub Pages name:lighthouseon:# push:schedule:- cron:&amp;#39;23 23 * * 0&amp;#39;jobs:test:runs-on:ubuntu-18.04steps:- uses:actions/checkout@v2- name:Installlighthouserun:sudonpmi-glighthouse- name:Runlighthouserun:| lighthouse \--chrome-flags=&amp;#34;--headless&amp;#34;\--outputhtml--output-path/tmp/report.html\&amp;#39;https://peaceiris.com&amp;#39;mkdir./publiccp/tmp/report.html./public/report.html- name:Deployuses:peaceiris/actions-gh-pages@v2.</description>
+    </item>
+    
+  </channel>
+</rss>
