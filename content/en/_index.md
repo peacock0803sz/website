@@ -1,75 +1,33 @@
 ---
-title: Home
-description: Hugo Theme IRIS homepage
-date: 2020-01-01T23:00:00.000Z
+title: Home - Affetoso
+description: 
+date: 2020-01-25T23:00:00.000Z
 ---
 
 
+<!-- ![Image from Gyazo](https://i.gyazo.com/1581e5efed9dd838385b37a05c0503fd.jpg) -->
+<img src="https://i.gyazo.com/1581e5efed9dd838385b37a05c0503fd.jpg" width="720">
 
-## About Hugo IRIS Theme
-
-### Profile
-
-{{< table >}}
-| Key | Value |
-|---|---|
-| Static Site Generator | Hugo |
-| Language | Go |
-{{< /table >}}
-
-### Keywords
+## Name
 
 {{< li >}}
-- Hugo
-- Golang
-- Static Site Generators
+- Peacock
+- くじゃく
 {{< /li >}}
+
+## Contacts
 
 {{< li >}}
-1. Hugo
-1. Golang
-1. Static Site Generators
+- [E-mail](peacock0803sz@gmail.com)
+- [Twitter](https://twitter.com/peacock0803sz)
+- [GitHub](https://github.com/peacock0803sz/)
+- Discord: peacock#1312
 {{< /li >}}
 
+## GitHub Glass
 
+<img src="https://grass-graph.moshimo.works/images/peacock0803sz.png" width="700">
 
-## Links
+## Donation
 
-### Internal
-
-<div class="buttons">
-  {{< button href="./posts/" txt="All Posts" >}}
-</div>
-
-### External
-
-<div class="buttons">
-  {{< button href="https://gohugo.io/" txt="Hugo Homepage" >}}
-  {{< button href="https://github.com/gohugoio/" txt="Hugo GitHub" >}}
-  {{< button href="https://discourse.gohugo.io/" txt="Hugo Forum" >}}
-  {{< button href="https://twitter.com/GoHugoIO" txt="Hugo Twitter" >}}
-</div>
-
-
-
-## Projects
-
-### OSS
-
-{{< repo id="peaceiris" name="actions-gh-pages" >}}
-
-{{< repo id="peaceiris" name="actions-hugo" >}}
-
-{{< repo id="peaceiris" name="hugo-extended-docker" >}}
-
-{{< repo
-id="hugojapan"
-name="ja"
-fullname="Hugo Japan"
-description="Hugo Japanese Documentation"
-lang="Markdown" >}}
-
-
-
-<!-- Internal References -->
-<!-- External References -->
+[Amazon欲しいものリスト](http://amzn.asia/0jq6XgS)
