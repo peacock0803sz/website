@@ -29,7 +29,7 @@ markup:
       unsafe: true
 
 # Configure Languages
-DefaultContentLanguage: en
+DefaultContentLanguage: ja
 languages:
   en:
     contentDir: content/en
@@ -48,7 +48,7 @@ languages:
     weight: 2
   ja:
     contentDir: content/ja
-    languageName: 日本語
+    languageName: Japanese
     languageCode: ja-jp
     params:
       author: Peacock
