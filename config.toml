@@ -1,6 +1,6 @@
 [languages]
   [languages.ja]
-    baseURL = "https://peacock0803sz.com"
+    baseURL = "https://peacock0803sz.com/ja"
     languageCode = "ja-jp"
     title = "Peacock"
     theme = "hugo-theme-iris"
