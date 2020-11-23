@@ -4,3 +4,6 @@ title = "Peacock"
 theme = "hugo-theme-iris"
 publishDir = "public"
 staticDir = "static"
+
+[Params]
+  images = ["static/images/ogp.jpg"]

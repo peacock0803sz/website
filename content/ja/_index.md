@@ -2,6 +2,15 @@
 title: Home - Affetoso
 description: 
 date: 2020-01-25T23:00:00.000Z
+og:title
+og:type
+og:url
+og:image
+og:description
+twitter:card
+twitter:image
+twitter:title
+twitter:description
 ---
 
 ![banner](https://peacock0803sz.s3-ap-northeast-1.amazonaws.com/banner.jpg)
