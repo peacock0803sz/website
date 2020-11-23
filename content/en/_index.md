@@ -4,7 +4,7 @@ description:
 date: 2020-01-25T23:00:00.000Z
 ---
 
-![../../static/images/]
+![banner](../banner.jpg)
 
 ## Name
 
@@ -13,14 +13,14 @@ date: 2020-01-25T23:00:00.000Z
 
 ## Contacts
 
-- [E-mail](mailto:peacock0803sz@gmail.com)
+- [E-mail](mailto:contact@peacock0803sz.com)
 - [Twitter](https://twitter.com/peacock0803sz)
 - [GitHub](https://github.com/peacock0803sz/)
 - Discord: peacock#1312
 
 ## GitHub Glass
 
-![https://grass-graph.moshimo.works/images/peacock0803sz.png]
+![github glass](https://grass-graph.moshimo.works/images/peacock0803sz.png)
 
 ## Donation
 

@@ -4,7 +4,7 @@ description:
 date: 2020-01-25T23:00:00.000Z
 ---
 
-![banner](../../static/images/banner.jpg)
+![banner](../banner.jpg)
 
 ## Name
 
