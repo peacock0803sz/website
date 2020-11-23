@@ -7,3 +7,5 @@ staticDir = "static"
 
 [Params]
   images = ["static/images/ogp.jpg"]
+  [twitter]
+    username = "peacock0803sz"
