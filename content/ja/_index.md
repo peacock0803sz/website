@@ -4,7 +4,7 @@ description:
 date: 2020-01-25T23:00:00.000Z
 ---
 
-![banner](../banner.jpg)
+![banner](https://peacock0803sz.s3-ap-northeast-1.amazonaws.com/banner.jpg)
 
 ## Name
 
