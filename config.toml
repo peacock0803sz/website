@@ -1,5 +1,8 @@
-baseURL = "https://www.peacock0803sz.com"
-languageCode = "ja-jp"
-title = "Peacock"
-theme = "hugo-theme-iris"
-publishDir = "public"
+[languages]
+  [languages.ja]
+    baseURL = "https://peacock0803sz.com"
+    languageCode = "ja-jp"
+    title = "Peacock"
+    theme = "hugo-theme-iris"
+    publishDir = "public"
+    staticDir = "static"
