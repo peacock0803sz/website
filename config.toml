@@ -1,15 +1,6 @@
-[languages]
-  [languages.ja]
-    baseURL = "https://peacock0803sz.com/ja"
-    languageCode = "ja-jp"
-    title = "Peacock"
-    theme = "hugo-theme-iris"
-    publishDir = "public"
-    staticDir = "static"
-  [languages.en]
-    baseURL = "https://peacock0803sz.com/en"
-    languageCode = "en-us"
-    title = "Peacock"
-    theme = "hugo-theme-iris"
-    publishDir = "public"
-    staticDir = "static"
+baseURL = "https://peacock0803sz.com/ja"
+languageCode = "ja-jp"
+title = "Peacock"
+theme = "hugo-theme-iris"
+publishDir = "public"
+staticDir = "static"
