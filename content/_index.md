@@ -15,7 +15,7 @@ I'm Yoichi TAKAI a.k.a. Peacock, a Web Developer.
 - [CMScom Inc.](https://www.cmscom.jp) from 2019/09, as Web application engineer
 - [PyCon JP 2020 staff](https://pycon.jp/2020/staff/) from 2019/11 to 2020/12, as Goods & Web Design WG Leader
 
-You can see my resume at [here](resume.md) (Japanese Only)
+You can see my resume at [here](/resume) (Japanese Only)
 
 ## :school: University
 

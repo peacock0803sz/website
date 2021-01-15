@@ -1,3 +1,7 @@
++++
+title = "resume"
++++
+
 # Resume
 
 ## 基本情報

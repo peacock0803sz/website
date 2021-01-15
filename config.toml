@@ -17,6 +17,7 @@ googleAnalytics = "G-3ELV22PF1P"
 
 [permalinks]
   "/" = "/:filename"
+  "/resume" = "resume.md"
 
 [menu]
   [[menu.main]]
