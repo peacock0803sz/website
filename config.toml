@@ -1,11 +1,28 @@
-baseURL = "https://peacock0803sz.com/ja"
-languageCode = "ja-jp"
-title = "Peacock"
-theme = "hugo-theme-iris"
+baseURL = "https://peacock0803sz.com"
+title = "Peacock's Website"
+theme = "researcher"
 publishDir = "public"
-staticDir = "static"
 
-[Params]
-  images = ["static/images/ogp.jpg"]
-  [twitter]
-    username = "peacock0803sz"
+enableEmoji = true
+math = false  # enable KaTeX (https://katex.org/) globally
+googleAnalytics = "G-3ELV22PF1P"
+
+[params]
+  author = "Peacock"
+  description = "Peacock's website"
+  favicon = "favicon.ico"  # path to a .ico to use as favicon
+  [params.footer]
+    text = "By Yoichi TAKAI a.k.a Peacock"
+    url = "https://github.com/peacock0803sz/peacock0803sz"
+
+[permalinks]
+  "/" = "/:filename"
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "https://peacock0803sz.hatenablog.jp"
+    weight = 1
+
+[markup.goldmark.renderer]
+  unsafe = true  # allow raw HTML in markdown files
