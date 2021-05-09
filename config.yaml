@@ -1,0 +1,82 @@
+baseURL: https://peacock0803sz.com
+languageCode: ja-jp
+title: Peacock's Website
+theme: hugo-refresh
+assetDir: "static"
+DefaultContentLanguage: ja
+disableKinds: ["sitemap", "RSS"]
+
+blackfriday:
+  hrefTargetBlank: true
+Taxonomies:
+  tag: "tags"
+
+params:
+  articlesPerRow: 2
+  favicon: "/favicon.ico"
+  jsMinify: false
+  cssMinify: false
+  cssIntegrity: true
+  jsIntegrity: true
+  mainColour: "#00aa00"
+
+  # summary options
+  summary:
+    defaultImage: "/IMAG0806.jpg"
+
+  # loading options
+  loading:
+    image: "/peacock0803sz.jpg"
+
+  # main pages options
+  mainPage:
+    fontFamily: "Open Sans"
+
+  # sidebar options
+  sidebar:
+    logo: "/peacock0803sz.jpg"
+    fontFamily: "Open Sans"
+
+  # navbar options
+  navbar:
+    fontFamily: "Noto Sans"
+    showIcons: false
+
+  # 404 page options
+  pagNotFound:
+    image: "/peacock0803sz.jpg"
+    title: 404 Page Not Found :(
+    subtitle: This is not the page you were looking for...
+    imageWidth: 500px
+
+  # homepage options
+  homepage:
+    title: Peacock's Website
+    subtitle: Hi, I'm Yoichi TAKAI a.k.a Peacock 👏
+    image: "/plate.png"
+    imageWidth: 1000px
+
+  # footer options
+  footer:
+    logo: "/peacock0803sz.jpg"
+    email:
+      link: contact@peacock0803sz.com
+      title: E-mail
+    facebook:
+      link: peacock0803sz
+      title: Facebook
+    github:
+      link: peacock0803sz
+      title: Github
+    twitter:
+      link: peacock0803sz
+      title: Twitter
+    instagram:
+      link: peacock0803sz
+      title: Instagram
+    copyright: "Copyright: Yoichi TAKAI - 2021"
+
+languages:
+  ja:
+    languageName: Japanese
+    weight: 1
