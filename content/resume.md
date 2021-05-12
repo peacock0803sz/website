@@ -20,7 +20,7 @@ showInMenu: true
 - [Twitter](https://twitter.com/peacock0803sz)
 - [facebook](https://www.facebook.com/peacock0803sz)
 - [Blog](https://peacock0803sz.hatenablog.jp)
-- contact@peacock0803sz.com
+- [e-mail](mailto:contact@peacock0803sz.com)
 
 ## 作品・OSSへの貢献
 
@@ -51,13 +51,12 @@ showInMenu: true
 
 ### 言語・フレームワーク・ライブラリ
 
-- Python 3.x
-    - Flask, Plone, Pyramid
+- Python (3.6以降)
+    - Flask 1.x, Plone5, Pyramid
     - OpenPyXL, BeautifulSoup4
     - argparse, clickでのコマンドライン引数解析
     - mypy, pytest, black & flake8環境での開発
 - JavaScript / TypeScript (ES2015以降)
-    - Vue.js
     - React
 - HTML/CSS
 
@@ -116,7 +115,7 @@ Pythonと教育をテーマに受託開発を行っている
     - 年次更新時の保守作業
 - 使用技術: Python 3.8, Flask 1.0, Vue.js 2.x, AWS Lambda, DynamoDB
 - 学んだこと:
-    - FlaskでのAPIサーバー構築\
+    - FlaskでのAPIサーバー構築
     - Unit-level test (Pytest)
 
 #### Plone 4 -> Plone 5 & Volto 移行用コンテンツ整形スクリプトの開発(2019年11月~2020年3月頃)
