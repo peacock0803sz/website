@@ -40,7 +40,11 @@ showInMenu: true
     - PloneのデータベースをAWS S3と同期するためのスクリプト
 - [HTTP/3 explained](https://daniel.haxx.se/http3-explained/)の日本語訳
 - 「Pythonではじめる今風な型プログラミング」 at Open Source Conference 2021 Hokkaido, 2021/06/21
+    - <https://speakerdeck.com/peacock0803sz/osc21do>
+    - <https://youtu.be/2sZ9U1iIscQ>
 - 「Getting Started with Statically Typed Programming in Python 3.10」 at EuroPython 2021, 2021/07/29
+    - <https://speakerdeck.com/peacock0803sz/getting-started-with-statically-typed-programming-in-python-3-dot-10>
+    - <https://www.youtube.com/watch?v=8HEYko-o63I&t=1300s>
 
 ## 興味分野、今後やりたいこと
 
