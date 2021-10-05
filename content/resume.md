@@ -39,6 +39,8 @@ showInMenu: true
 - [mr.s3](https://github.com/peacock0803sz/mr.s3)
     - PloneのデータベースをAWS S3と同期するためのスクリプト
 - [HTTP/3 explained](https://daniel.haxx.se/http3-explained/)の日本語訳
+- 「Pythonではじめる今風な型プログラミング」 at Open Source Conference 2021 Hokkaido, 2021/06/21
+- 「Getting Started with Statically Typed Programming in Python 3.10」 at EuroPython 2021, 2021/07/29
 
 ## 興味分野、今後やりたいこと
 
@@ -52,7 +54,7 @@ showInMenu: true
 ### 言語・フレームワーク・ライブラリ
 
 - Python (3.6以降)
-    - Flask 1.x, Plone5, Pyramid
+    - Flask 1.x / 2.x, Plone5, Pyramid
     - OpenPyXL, BeautifulSoup4
     - argparse, clickでのコマンドライン引数解析
     - mypy, pytest, black & flake8環境での開発
