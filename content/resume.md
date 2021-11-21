@@ -30,8 +30,8 @@ showInMenu: true
 - [PyCon JP 2020](https://pycon.jp/2020) Goods & Web Designチームリーダー
 - [PyCon JP TV](https://tv.pycon.jp)ディレクター
 - Plone User's Group JapanとしてWorld Plone Day 2021 TokyoでのYouTube Live(ディレクター)
-- Plone User's Group JapanとしてPlone本体の翻訳(共同) https://github.com/collective/plone.app.locales
-    - https://github.com/collective/plone.app.locales/commit/0d74afd7361e17ebf9d7bd87299702baec286004
+- Plone User's Group JapanとしてPlone本体の翻訳(共同) <https://github.com/collective/plone.app.locales>
+    - <https://github.com/collective/plone.app.locales/commit/0d74afd7361e17ebf9d7bd87299702baec286004>
 
 ### その他作品・OSS活動
 
@@ -44,7 +44,9 @@ showInMenu: true
     - <https://youtu.be/2sZ9U1iIscQ>
 - 「Getting Started with Statically Typed Programming in Python 3.10」 at EuroPython 2021, 2021/07/29
     - <https://speakerdeck.com/peacock0803sz/getting-started-with-statically-typed-programming-in-python-3-dot-10>
-    - <https://www.youtube.com/watch?v=8HEYko-o63I&t=1300s>
+    - <https://www.youtube.com/watch?v=8HEYko-o63I>
+- 「Getting Started with Statically Typed Programming in Python 3.10」 at PyCon APAC 2021, 2021/10/20
+    - <https://speakerdeck.com/peacock0803sz/pycon-apac-2021>
 
 ## 興味分野、今後やりたいこと
 
@@ -86,11 +88,23 @@ showInMenu: true
 
 Pythonと教育をテーマに受託開発を行っている
 
+#### PyramidでのAPIサーバー開発
+
+- 役割: メインの開発担当として基本設計フェーズから実装、顧客との仕様調整(一部)を担当
+- 使用技術: Pyramid 2.x, PostgreSQL 12, SQLAlchemy 1.14, Redis 6.x Ansible 2.11
+- 学んだこと:
+    - Session, Cookie管理
+    - CORS
+        - CORSとPreflight requestについて <https://zenn.dev/peacock0803sz/articles/fe331e04183257>
+    - Zope interfaceを使用した開発
+    - Ansibleでの構成管理
+
 #### Flask + ReactでのWebサービス開発 (2021年3月頃~現在)
 
 - 役割: メインの開発担当として基本設計フェーズから実装までを担当
 - 使用技術: Flask 1.x, Numpy, React + d3.js, AWS Lambda & DynamoDB
 - 学んだこと:
+    - OpenAPI Specification (v3.0)
     - toCサービスの開発
     - MVCモデルアーキテクチャでの設計
     - Reactでのコンポーネント開発
