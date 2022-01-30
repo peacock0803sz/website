@@ -1,9 +1,13 @@
 ---
 title: "Resume"
-date: 2019-06-03T21:51:13+01:00
+date: '2019-06-03T21:51:13+01:00'
 excerpt: Peacock's resume
+coverImage: '/assets/img/cover.jpg'
 author:
-    name: Peacock
+  name: Peacock
+  picture: '/assets/img/peacock0803sz.jpg'
+ogImage:
+  url: '/assets/img/cover.ipg'
 ---
 
 # 職務経歴書
