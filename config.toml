@@ -1,0 +1,35 @@
+baseURL = "https://peacock0803sz.com"
+languageCode = "ja-jp"
+title = "Peacock's Website"
+theme = "researcher"
+assetDir = "static"
+DefaultContentLanguage = "ja"
+enableEmoji = true
+disableKinds = ["sitemap", "RSS"]
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+
+[params]
+  author = "Peacock"
+  favicon = "favicon.ico"
+  [params.footer]
+    text = "By Yoichi TAKAI a.k.a. Peacock"
+    url = "https://peacock0803sz.com"
+
+[permalinks]
+  "/" = "/:filename"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 1
+  [[menu.main]]
+    name = "Resume"
+    url = "/resume"
+
+[languages]
+  [ja]
+    languageName = "Japanese"
+    weight = 1
