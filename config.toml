@@ -22,15 +22,13 @@ disableKinds = ["sitemap", "RSS"]
 
 [menu]
   [[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 1
-  [[menu.main]]
     name = "Resume"
     url = "/resume"
+    weight = 1
   [[menu.main]]
     name = "Activities"
     url = "/activities"
+    weight = 2
 
 [languages]
   [ja]
