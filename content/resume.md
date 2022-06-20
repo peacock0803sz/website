@@ -11,6 +11,8 @@ showInMenu: true
 
 # 職務経歴書
 
+最終更新: 2022/06
+
 現在、中期的(半年から1年)な転職を視野に入れて転職活動中です。
 
 ## 名前・連絡先
@@ -22,61 +24,42 @@ showInMenu: true
 - [Blog](https://peacock0803sz.hatenablog.jp)
 - [e-mail](mailto:contact@peacock0803sz.com)
 
-## 作品・OSSへの貢献
-
-### コミュニティ活動
-
-- [PyCon JP 2021](https://2021.pycon.jp)スタッフ(会場、スポンサー、デザイン)
-- [PyCon JP 2020](https://pycon.jp/2020) Goods & Web Designチームリーダー
-- [PyCon JP TV](https://tv.pycon.jp)ディレクター
-- Plone User's Group JapanとしてWorld Plone Day 2021 TokyoでのYouTube Live(ディレクター)
-- Plone User's Group JapanとしてPlone本体の翻訳(共同) <https://github.com/collective/plone.app.locales>
-    - <https://github.com/collective/plone.app.locales/commit/0d74afd7361e17ebf9d7bd87299702baec286004>
-
-### その他作品・OSS活動
-
-- My Website(This repo): [peacock0803sz](https://github.com/peacock0803sz/peacock0803sz)
-- [mr.s3](https://github.com/peacock0803sz/mr.s3)
-    - PloneのデータベースをAWS S3と同期するためのスクリプト
-- [HTTP/3 explained](https://daniel.haxx.se/http3-explained/)の日本語訳
-- 「Pythonではじめる今風な型プログラミング」 at Open Source Conference 2021 Hokkaido, 2021/06/21
-    - <https://speakerdeck.com/peacock0803sz/osc21do>
-    - <https://youtu.be/2sZ9U1iIscQ>
-- 「Getting Started with Statically Typed Programming in Python 3.10」 at EuroPython 2021, 2021/07/29
-    - <https://speakerdeck.com/peacock0803sz/getting-started-with-statically-typed-programming-in-python-3-dot-10>
-    - <https://www.youtube.com/watch?v=8HEYko-o63I>
-- 「Getting Started with Statically Typed Programming in Python 3.10」 at PyCon APAC 2021, 2021/10/20
-    - <https://speakerdeck.com/peacock0803sz/pycon-apac-2021>
-
-## 興味分野、今後やりたいこと
-
-- Rust
-- Deno
-- 非同期プログラミング
-- Kubernetes
+業務以外の活動については[こちら](./activities.md)を参照
 
 ## 主なスキル
 
-### 言語・フレームワーク・ライブラリ
+### できる(実務で使った)
 
 - Python (3.6以降)
     - Flask 1.x / 2.x, Plone5, Pyramid
     - OpenPyXL, BeautifulSoup4
     - argparse, clickでのコマンドライン引数解析
     - mypy, pytest, black & flake8環境での開発
-- JavaScript / TypeScript (ES2015以降)
-    - React
-- HTML/CSS
-
-### データベース・ミドルウェア・パブリッククラウド
-
 - Docker, docker-compose
 - Nginx
 - PostgreSQL
 - AWS
     - Lambda, S3, DynamoDB, RDS, SES, ECS, CloudWatch
+- Terraform
 
-### ツール・OSなど
+### 少しできる(実務で触ったことがある・個人で使っている)
+
+- JavaScript / TypeScript (ES2015以降)
+    - React, Vue
+- GCP
+    - Cloud Run
+
+### 興味がある(チュートリアル触った程度)
+
+- Deno
+- Rust
+    - Haskellを少し触ったことがあり、関数型的指向に興味がある
+- Go
+    - Batteries IncludedなPythonばかりなので、素の実装力をつけるために身につけたい
+- Kubernetes
+    - 大規模サービスを運用したことがないので、経験してみたい
+
+### 使用しているツール・OSなど
 
 - Git / GitHub, Bitbucket
 - Linux(開発用OSとして、2014年から)
@@ -86,12 +69,30 @@ showInMenu: true
 
 ### 2019/09/25 ~ 現在: [株式会社CMSコミュニケーションズ](https://cmscom.jp)
 
-Pythonと教育をテーマに受託開発を行っている
+Pythonと教育をテーマに受託開発を行っている。社員6名
 
-#### PyramidでのAPIサーバー開発
+#### 問い合わせ機能付きランディングページサイト開発(2022年4月~2022年6月)
+
+- 役割: メイン開発者としてバックエンド、インフラ
+- 使用技術: Flask 2.x, Terraform 1.x, AWS Lambda, API Gateway, S3, CloudFront
+- 学んだこと:
+    - Terraformを用いてのサービス量産
+    - Pythonの `importlib` を工夫しての設定読み込み
+- 苦労したこと・できなかったこと
+    - AWSのリージョンを跨いだTerraformでの構成管理
+
+#### Open edX導入支援 (2022年2月頃~2022年3月)
+
+- 役割: インフラ担当としてDockerでのOpen edXシステム導入
+- 使用技術: Open edX (version Maple), AWS RDS(MySQL), Docker, click
+- 学んだこと:
+    - Django Admin画面での操作
+    - Docker(on AWS EC2)ベースでのシステム導入
+
+#### PyramidでのAPIサーバー開発 (2021年8月頃~2022年1月頃)
 
 - 役割: メインの開発担当として基本設計フェーズから実装、顧客との仕様調整(一部)を担当
-- 使用技術: Pyramid 2.x, PostgreSQL 12, SQLAlchemy 1.14, Redis 6.x Ansible 2.11
+- 使用技術: Pyramid 2.x, PostgreSQL 12, SQLAlchemy 1.14, Redis 6.x, Ansible 2.11
 - 学んだこと:
     - Session, Cookie管理
     - CORS
@@ -99,7 +100,7 @@ Pythonと教育をテーマに受託開発を行っている
     - Zope interfaceを使用した開発
     - Ansibleでの構成管理
 
-#### Flask + ReactでのWebサービス開発 (2021年3月頃~現在)
+#### Flask + ReactでのWebサービス開発 (2021年3月頃~7月頃)
 
 - 役割: メインの開発担当として基本設計フェーズから実装までを担当
 - 使用技術: Flask 1.x, Numpy, React + d3.js, AWS Lambda & DynamoDB
@@ -108,6 +109,7 @@ Pythonと教育をテーマに受託開発を行っている
     - toCサービスの開発
     - MVCモデルアーキテクチャでの設計
     - Reactでのコンポーネント開発
+    - AWSにてServerless Serviceの立ち上げ
 
 #### Pyramid製システムのPython2.7 -> Python3.8アップグレード (2021年初頭)
 
