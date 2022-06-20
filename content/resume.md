@@ -24,7 +24,7 @@ showInMenu: true
 - [Blog](https://peacock0803sz.hatenablog.jp)
 - [e-mail](mailto:contact@peacock0803sz.com)
 
-業務以外の活動については[こちら](./activities.md)を参照
+業務以外の活動については[こちら](../activities)を参照
 
 ## 主なスキル
 
