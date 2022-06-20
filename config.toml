@@ -28,6 +28,9 @@ disableKinds = ["sitemap", "RSS"]
   [[menu.main]]
     name = "Resume"
     url = "/resume"
+  [[menu.main]]
+    name = "Activities"
+    url = "/activities"
 
 [languages]
   [ja]
