@@ -38,9 +38,6 @@ showInMenu: true
 
 ## 登壇実績
 
-- 「multi-stage buildを意識したDockerfileの書き方 for Python」at Open Source Conferece 2022 Online/Hokkaido, 2022/06/25
-    - Slides: <https://slides.peacock0803sz.com/osc22do/index.html>
-    - Video: TBU
 - 「Getting Started with Statically Typed Programming in Python 3.10」 at PyCon US 2022, 2022/05/01
     - Slides: <https://slides.peacock0803sz.com/pyconus2022/index.html>
     - Video: <https://youtu.be/ZUIK9hxyi7Y>
