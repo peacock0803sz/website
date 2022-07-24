@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v3
       - run: |
           sudo apt-get update && sudo apt-get install -y pandoc texlive-latex-base texlive-luatex fonts-ipafont
-          pandoc content/resume.md -o dist/resume.pdf --pdf-engine=lualatex -V documentclass=ltjsarticle -V luatexjapresetoptions=ipa
+          pandoc content/resume.md -o dist/resume.pdf --pdf-engine=lualatex -V luatexjapresetoptions=ipa
       - name: Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
