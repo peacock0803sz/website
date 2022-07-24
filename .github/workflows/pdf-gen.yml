@@ -8,12 +8,17 @@ jobs:
     name: Generate PDF resume
     steps:
       - uses: actions/checkout@v3
+      - name: Configure AWS Credentials From Web Identity
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ap-northeast-1
       - run: |
           sudo apt-get update && sudo apt-get install -y pandoc texlive-full texlive-luatex fonts-ipafont
           mkdir -p dist && sed '1,11d' content/resume.md > dist/resume.md
           pandoc dist/resume.md -o dist/resume.pdf --pdf-engine=lualatex -V luatexjapresetoptions=ipa
-      - name: Release
-        uses: softprops/action-gh-release@v1
-        if: startsWith(github.ref, 'refs/tags/')
-        with:
-          files: dist/resume.pdf
+      - name: Build and deploy to s3 bucket
+        env:
+          S3_REPOSITORY: s3://peacock0803sz
+        run: aws s3 sync ./dist/resume.pdf $S3_REPOSITORY/resume.pdf
