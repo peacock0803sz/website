@@ -14,11 +14,12 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ap-northeast-1
-      - run: |
+      - name: Generate resume PDF
+        run: |
           sudo apt-get update && sudo apt-get install -y pandoc texlive-full texlive-luatex fonts-ipafont
           mkdir -p dist && sed '1,11d' content/resume.md > dist/resume.md
           pandoc dist/resume.md -o dist/resume.pdf --pdf-engine=lualatex -V luatexjapresetoptions=ipa
       - name: Build and deploy to s3 bucket
         env:
           S3_REPOSITORY: s3://peacock0803sz
-        run: aws s3 sync ./dist/resume.pdf $S3_REPOSITORY/resume.pdf
+        run: aws s3 sync dist/resume.pdf $S3_REPOSITORY/resume.pdf
